@@ -8,10 +8,67 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+
+  .navbar {
+  	margin-bottom: 0;
+  	border-radius: 0;
+  	background-color: #5E4485;
+  	color: #FFF;
+  	padding: 1% 0;
+  	font-size: 1.2em;
+  	border: 0;
+  }
+  .navbar-brand {
+  	float: left;
+  	min-height: 55px;
+  	padding: 0 15px 5px; 
+  }
+  .navbar-inverse .navbar-nav .active a, 
+  .navbar-inverse .navbar-nav .active a:focus, 
+  .navbar-inverse .navbar-nav .active a:hover {
+  	color: #FFF;
+  	background-color: #5E4485;
+  }
+  .navbar-inverse .navbar-nav li a {
+		color: #D5D5D5;  	
+  }
+  .carousel-caption {
+  	top: 50%;
+  	transform: translateY(-50%);
+  	text-transform: uppercase;
+  }
+  .btn{
+  	font-size: 18px;
+  	color: #FFF;
+  	padding: 12px 22px;
+  	background: #5E4485;
+  	border: 2px solid #FFF;
+  }
+  .container {
+  	margin: 4% auto;
+  }
+  #icon {
+  	margin: 1% auto;
+  }
+
+  @media (max-width: 600px) {
+  	.carousel-caption {
+  		display: none;
+  	}
+  	#icon{
+  		max-width: 150px;
+  	}
+  	h2 {
+  		font-size: 1.7em;
+  	}
+  }
+
+  </style>
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse">
+	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -19,7 +76,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#"><img src="img/rit.png"></a>
+				<a class="navbar-brand" href="#"><img src="img/emma_logo.png"></a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
@@ -32,6 +89,7 @@
 			</div>
 		</div>
 	</nav>
+
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -54,5 +112,55 @@
 				<img src="img/red.png">
 			</div>
 		</div>
+		<!--- Slider Control -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+		</a>
 	</div> <!--- End Slider -->
+
+	<div class="container text-center">
+		<h1>Education</h1>
+		<br>
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="img/rit_logo.png" id="icon">
+				<h4><strong>Rochester Institue of Technology</strong></h4>
+			</div>
+			<div class="col-sm-4">
+				<img src="img/potsdam.png" id="icon">
+				<h4><strong>Potsdam University</strong></h4>
+			</div>
+			<div class="col-sm-4">
+				<img src="img/lulea.png" id="icon">
+				<h4><strong>Lulea Institue of Technology</strong></h4>
+			</div>
+		</div>
+	</div>
+
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-md-4">
+				<h4>Graduate Program</h4>
+				<p></p>
+				<p></p>
+			</div>
+			<div class="col-md-4">
+			<h4>Exchange Semester</h4>
+				<p></p>
+				<p></p>
+			</div>
+			<div class="col-md-4">
+			<h4>Undergraduate</h4>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+	</div>
+
 </body>
+</html>
