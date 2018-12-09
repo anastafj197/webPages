@@ -68,6 +68,10 @@
   	margin: 1% auto;
   	max-width: 200;
   }
+  #icon2 {
+  	padding-left: 10px;
+  	padding-right: 15px;
+  }
   footer {
   	width: 100;
   	background-color: #5E4485;
@@ -193,16 +197,19 @@
 			<div class="row">
 				<div class="col-md-4">
 					<h3>Undergraduate</h3>
-					<p align="left">A bunch of stuff</p>
-					<p align="left">A bunch of stuff</p>
+						<br>
+						<p align="left">A bunch of stuff</p>
+						<p align="left">A bunch of stuff</p>
 				</div>
 				<div class="col-md-4">
 				<h3>Exchange</h3>
+					<br>
 					<p align="left">A bunch of stuff</p>
 					<p align="left">A bunch of stuff</p>
 				</div>
 				<div class="col-md-4">
 				<h3>Masters</h3>
+					<br>
 					<p align="left">A bunch of stuff</p>
 					<p align="left">A bunch of stuff</p>
 				</div>
@@ -214,17 +221,41 @@
 
 	<section class="section scrollspy" id="s-expierence">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-6">	
-					<h1 align="center">Expierence</h1>
-					<p>Islands</p>
-					<p>Miroi</p>
-				</div>
-				<div class="col-md-6">
-					<h1 align="center">Involvment</h1>
-					<p>Clubs</p>
-					<p>Competitions</p>
-				</div>
+			<h1 align="center">Expierence</h1>
+			<br>
+			<div>
+				<img style="float:left" src="img/saunders.png" id="icon2">
+				<h3>Graduate Research Assistant</h3>
+				<h4>RIT - Saunders College of Business</h4>
+				<h5>Sept 2018 - Present ~ 4 mos</h5>
+			</div>
+			<br>
+			<div>
+				<img style="float:left" src="img/myMerch.png" id="icon2">
+				<h3>Financial Administrator</h3>
+				<h4>myMerch AB Sweden</h4>
+				<h5>Jan 2018 - Aug 2018 ~ 8 mos</h5>
+			</div>
+			<br>
+			<div>
+				<img style="float:left" src="img/studentConsulting.png" id="icon2">
+				<h3>Business Process Assistant</h3>
+				<h4>StudentConsulting</h4>
+				<h5>May 2015 - Aug 2016 ~ 1 yr 4 mos</h5>
+			</div>
+			<br>
+			<div>
+				<img style="float:left" src="img/miroi.png" id="icon2">
+				<h3>Accounts Payable</h3>
+				<h4>Miroi AB Sweden</h4>
+				<h5>Feb 2013 - Jun 2014 ~ 1 yr 5 mos</h5>
+			</div>
+			<br>
+			<div>
+				<img style="float:left" src="img/miroi.png" id="icon2">
+				<h3>Administrator</h3>
+				<h4>Miroi AB Sweden</h4>
+				<h5>Jun 2009 - Feb 2013 ~ 3 yrs 9 mos</h5>	
 			</div>
 		</div>
 	</section>
