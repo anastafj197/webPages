@@ -125,6 +125,9 @@
 						<a class="nav-link"  href="#s-expierence">Expierence</a>
 					</li>
 					<li class="nav-item mr-4">
+						<a class="nav-link"  href="#s-involvment">Involvment</a>
+					</li>
+					<li class="nav-item mr-4">
 						<a class="nav-link"  href="#s-skills">Skills</a>
 					</li>
 					<li class="nav-item mr-4">
@@ -198,20 +201,23 @@
 				<div class="col-md-4">
 					<h3>Undergraduate</h3>
 						<br>
-						<p align="left">A bunch of stuff</p>
-						<p align="left">Relevant courses:</p>
+						<p align="left">I completed my bachelors degree in international business administration from Lulea University in January 2018. My accumulative GPA was a 3.4</p>
+						<p align="left"><strong>Relevant courses:</strong></p>
 				</div>
 				<div class="col-md-4">
 				<h3>Exchange</h3>
 					<br>
-					<p align="left">I attended Potsdam University during an exchange semester as a part of my undergraduate degree. I was able to maintain a 4.0GPA average scoring perfectly in all my coursework. The classes I chose to take were </p>
-					<p align="left">Relevant courses:</p>
+					<p align="left">I attended Potsdam University during an exchange semester as a part of my undergraduate degree. I was able to maintain a 4.0 GPA average scoring perfectly in all my coursework. </p>
+					<p align="left"><strong>Relevant courses:</strong></p>
 				</div>
 				<div class="col-md-4">
 				<h3>Masters</h3>
 					<br>
-					<p align="left">A bunch of stuff</p>
-					<p align="left">Relevant courses:</p>
+					<p align="left">I am a current student at RIT pursing a masters in management with a concentration in global / supply chain management. I was awarded the fellowship which is a highly sought after acedemic scholorship. </p>
+					<p align="left"><strong>Relevant courses:</strong> Lean Six Sigma Fundamentals,
+																														 Global Business Analytics,
+																														 Operations & Supply Chain Management,
+																														 and Integrated Business Systems</p>
 				</div>
 			</div>
 		</div>
@@ -227,70 +233,81 @@
 				<div class="col-md-6">
 					<div>
 						<img style="float:left" src="img/saunders.png" id="icon2">
-						<h3>Graduate Research Assistant</h3>
+						<h3><a href="#hidden_1" data-toggle="collapse">Graduate Research Assistant</a></h3>
 						<h4>RIT - Saunders College of Business</h4>
 						<h5>Sept 2018 - Present ~ 4 mos</h5>
 					</div>
 					<br>
 					<div>
 						<img style="float:left" src="img/myMerch.png" id="icon2">
-						<h3>Financial Administrator</h3>
+						<h3><a href="#hidden_2" data-toggle="collapse">Financial Administrator</a></h3>
 						<h4>myMerch AB Sweden</h4>
 						<h5>Jan 2018 - Aug 2018 ~ 8 mos</h5>
 					</div>
 					<br>
 					<div>
 						<img style="float:left" src="img/studentConsulting.png" id="icon2">
-						<h3>Business Process Assistant</h3>
+						<h3><a href="#hidden_3" data-toggle="collapse">Business Process Assistant</a></h3>
 						<h4>StudentConsulting</h4>
 						<h5>May 2015 - Aug 2016 ~ 1 yr 4 mos</h5>
 					</div>
 					<br>
 					<div>
 						<img style="float:left" src="img/miroi.png" id="icon2">
-						<h3>Accounts Payable</h3>
+						<h3><a href="#hidden_4" data-toggle="collapse">Accounts Payable</a></h3>
 						<h4>Miroi AB Sweden</h4>
 						<h5>Feb 2013 - Jun 2014 ~ 1 yr 5 mos</h5>
 					</div>
 					<br>
 					<div>
 						<img style="float:left" src="img/miroi.png" id="icon2">
-						<h3>Administrator</h3>
+						<h3><a href="#hidden_5" data-toggle="collapse">Administrator</a></h3>
 						<h4>Miroi AB Sweden</h4>
 						<h5>Jun 2009 - Feb 2013 ~ 3 yrs 9 mos</h5>	
 					</div>
 				</div>
 				<div class="col-md-6">
 				<br>
+				<div id="hidden_1" class="collapse in">
 				<p>- Assisting faculty on research project involving lower consumption buisness models. <br>
-				   - Exploring the policies involved with the models. </p> <br><br><br>
+				   - Exploring the policies involved with the models. </p> </div> <br><br><br>
 				
+				<div id="hidden_2" class="collapse in">
 				<p>- Started the administrative department.<br>
 					 - Managed the financial system (Fortnox).<br>
 					 - Contributed to the developement of policies.<br>
 					 - Established routines.<br>
-					 - Handled the accounting. </p> <br><br>
+					 - Handled the accounting. </p> </div> <br><br>
 
+				<div id="hidden_3" class="collapse in">
 				<p>- Part-time employment beside my university studies. <br>
 					 - Involved the processing of wages, invoices and statistics. <br>
-					 - Serving as an aid to consultant managers in their daily work. </p> <br><br>
+					 - Serving as an aid to consultant managers in their daily work. </p> </div> <br><br>
 
+				<div id="hidden_4" class="collapse in">
 				<p>- Worked closely with the CFO, purchasing manager and financial controller. <br>
 				   - Helped develop and implement a system for processing purchases and invoices. <br>
 				   - Maintenance and management of financial system. <br>
 				   - Administered suppliers and maintained primary contact with them. <br>
 				   - Supervised invoice processing, purchase orders and payment transactions. <br>
-				   - Supported the implementation and update of purchasing policies.</p><br>
+				   - Supported the implementation and update of purchasing policies.</p> </div> <br>
 
+				<div id="hidden_5" class="collapse in">
 				<p>- Developed, managed and continuously improved a centralized administrative system. <br>
 					 - Successfully led the work of the administrative unit, a team of three. <br>
 					 - Played a key role in a project aimed at developing a system for internal web support. <br>
-					 - Completed a company specific trainee program.</p>
+					 - Completed a company specific trainee program.</p></div>
 				</div>
 		</div>
 	</section>
 	<hr>
 
+	<section class="section scrollspy" id="s-involvment">
+		<div class="container text-center">
+			<h1>Involvment</h1>
+		<div></div>
+	</section>
+	<hr>
 	<section class="section scrollspy" id="s-skills">
 		<div class="container text-center">
 			<h1>Skills</h1>
@@ -346,7 +363,7 @@
 			<div class="row">
 				<div class="col-sm-4">
 					<h3>Contact Me</h3>
-						<p>Emmaaspvik@<gmail class="com"></gmail></p>
+						<p>Emmaaspvik@gmail.com</p>
 				</div>
 				<div class="col-sm-4">
 					<h3>Connect</h3>
