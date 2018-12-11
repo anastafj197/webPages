@@ -305,7 +305,16 @@
 	<section class="section scrollspy" id="s-involvment">
 		<div class="container text-center">
 			<h1>Involvment</h1>
-		<div></div>
+				<div class="row">
+					<div class="col-sm-6">
+						<h3>Club: Net Impact</h3>
+						<h4>Role: Chapter President</h4>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/7-hWAXEUJhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="col-sm-6">
+						<h3>Competetion</h3>
+					</div>
+				</div>
 	</section>
 	<hr>
 	<section class="section scrollspy" id="s-skills">
